@@ -4,6 +4,7 @@ Greiner-Hormann polygon clipping (TypeScript port)
 
 This is the TypeScript port of the original package
 [w8r/GreinerHormann](https://github.com/w8r/GreinerHormann)
+Thanks to [Alexander Milevski](https://github.com/w8r) for the original es6 implementation.
 
 
  * Does AND, OR, XOR (intersection, union, difference, if you're human)
