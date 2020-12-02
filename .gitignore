@@ -13,3 +13,7 @@ build.properties
 
 test/lib/
 test/js/bundle.js
+
+resources/
+*.*~
+_dist/
