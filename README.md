@@ -14,7 +14,7 @@ Thanks to [Alexander Milevski](https://github.com/w8r) for the original es6 impl
 
 [Original demo and documentation](http://w8r.github.io/GreinerHormann/)
 
-![New test and demo](https://www.int2byte.de/public/plotboilerplate/screenshots/screenshot-20201202-1-polygon-intersection.png "New test and demo")
+![Interactive demo](https://www.int2byte.de/public/plotboilerplate/screenshots/screenshot-20201202-1-polygon-intersection.png "Interactive demo")
 
 [New test and demo](https://www.int2byte.de/public/plotboilerplate/demos/27-polygon-intersection-greinerhormann/)
 
