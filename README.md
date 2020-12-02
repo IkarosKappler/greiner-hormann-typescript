@@ -13,6 +13,10 @@ This is the TypeScript port of the original package
 
 [Original demo and documentation](http://w8r.github.io/GreinerHormann/)
 
+![New test and demo](https://www.int2byte.de/public/plotboilerplate/screenshots/screenshot-20201202-1-polygon-intersection.png "New test and demo")
+
+[New test and demo](https://www.int2byte.de/public/plotboilerplate/demos/27-polygon-intersection-greinerhormann/)
+
 **Note:** If you are looking for something more powerful, take a look at the [Martinez polygon clipping](https://github.com/w8r/martinez) implementation.
 
 ## Install
