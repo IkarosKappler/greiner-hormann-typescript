@@ -14,9 +14,9 @@ Thanks to [Alexander Milevski](https://github.com/w8r) for the original es6 impl
 
 [Original demo and documentation](http://w8r.github.io/GreinerHormann/)
 
-![Interactive demo](https://www.int2byte.de/public/plotboilerplate/screenshots/screenshot-20201202-1-polygon-intersection.png "Interactive demo")
+![Screenshot of two intersecting polygons](https://www.int2byte.de/public/plotboilerplate/screenshots/screenshot-20201202-1-polygon-intersection.png "Screenshot of two intersecting polygons")
 
-[New test and demo](https://www.int2byte.de/public/plotboilerplate/demos/27-polygon-intersection-greinerhormann/)
+[Interactive demo](https://www.int2byte.de/public/plotboilerplate/demos/27-polygon-intersection-greinerhormann/)
 
 **Note:** If you are looking for something more powerful, take a look at the [Martinez polygon clipping](https://github.com/w8r/martinez) implementation.
 
