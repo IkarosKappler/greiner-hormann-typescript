@@ -1,5 +1,5 @@
 {
-  "name": "greiner-hormann",
+  "name": "greiner-hormann-typescript",
   "version": "1.4.1",
   "description": "Greiner-Hormann clipping algorithm; Typescript port.",
   "main": "dist/greiner-hormann.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/w8r/GreinerHormann.git"
+    "url": "https://github.com/IkarosKappler/greiner-hormann-typescript"
   },
   "keywords": [
     "polygon",
@@ -27,7 +27,7 @@
   "contributors": "Ikaros Kappler <info@int2byte.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/w8r/GreinerHormann/issues"
+    "url": "https://github.com/IkarosKappler/greiner-hormann-typescript/issues"
   },
   "homepage": "https://github.com/w8r/GreinerHormann",
   "devDependencies": {
