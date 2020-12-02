@@ -1,37 +1,41 @@
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-Greiner-Hormann polygon clipping
-================================
+Greiner-Hormann polygon clipping (TypeScript port)
+==================================================
+
+This is the TypeScript port of the original package
+[w8r/GreinerHormann](https://github.com/w8r/GreinerHormann)
+
 
  * Does AND, OR, XOR (intersection, union, difference, if you're human)
  * Plays nicely with [Leaflet](http://github.com/leaflet/leaflet/), comes with an adaptor for it
  * Handles non-convex polygons and multiple clipping areas
  * ~3kb compressed, no dependencies
 
-[Demo and documentation](http://w8r.github.io/GreinerHormann/)
+[Original demo and documentation](http://w8r.github.io/GreinerHormann/)
 
 **Note:** If you are looking for something more powerful, take a look at the [Martinez polygon clipping](https://github.com/w8r/martinez) implementation.
 
 ## Install
 ```bash
-$ npm install greiner-hormann
+$ npm install greiner-hormann-typescript
 ```
 
 Browserify
 ```js
-var greinerHormann = require('greiner-hormann');
+var greinerHormann = require('greiner-hormann-typescript');
 ```
 
 Browser
 ```html
-<script src="path/to/greiner-hormann(.leaflet).min.js"></script>
+<script src="path/to/greiner-hormann-typescript(.leaflet).min.js"></script>
 ```
 
 ## Use
-```js
+```typescript
 ...
-var intersection = greinerHormann.intersection(source, clip);
-var union        = greinerHormann.union(source, clip);
-var diff         = greinerHormann.diff(source, clip);
+const intersection : Array<Array<IVertex>> = greinerHormann.intersection(source, clip);
+const union : Array<Array<IVertex>>        = greinerHormann.union(source, clip);
+const diff : Array<Array<IVertex>>         = greinerHormann.diff(source, clip);
 
 ...
 
@@ -39,7 +43,7 @@ if(intersection){
     if(typeof intersection[0][0] === 'number'){ // single linear ring
         intersection = [intersection];
     }
-    for(var i = 0, len = intersection.length; i < len; i++){
+    for(var i = 0, len = intersection.length; i < len; i++) {
         L.polygon(intersection[i], {...}).addTo(map);
     }
 }
